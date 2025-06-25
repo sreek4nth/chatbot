@@ -1,0 +1,8 @@
+Open terminal and run:
+crontab -e
+
+
+Add this line:
+0 6 * * * /usr/bin/python3 /path/to/sample.py >> /path/to/logfile.log 2>&1
+
+0 6 * * * = At 6:00 AM every day
